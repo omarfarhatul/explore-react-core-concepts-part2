@@ -5,10 +5,28 @@ import './App.css'
 
 function App() {
 
+  function handleClick(){
+    alert('Button clicked!');
+  }
+
+  const handleClick2 = () =>{
+    alert('Button 2 clicked!');
+  }
+
+  const addToFive = (n) =>{
+    alert(n+5);
+  }
 
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <div>
+        <button onClick={handleClick}>Click Me!</button>
+        <button onClick={handleClick2}>Click Me 2!</button>
+        <button onClick={() =>{
+        alert('Button 3 clicked!')}}>Click Me 3!</button>
+        <button onClick={() =>addToFive(3)}>Four</button>
+      </div>
     </>
   )
 }
