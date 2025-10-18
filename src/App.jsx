@@ -6,6 +6,7 @@ import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
 import Friends from './Friends'
+import Albums from './Albums'
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+
+      <Albums></Albums>
 
       <Friends></Friends>
       
