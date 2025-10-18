@@ -22,4 +22,5 @@ export default function Users(){
 1. declare a state to hold the date
 2. useEffect with call back and dependency
 3. use fetch to load data
+4. set the loaded data to the state
 */
